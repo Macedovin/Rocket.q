@@ -1,0 +1,22 @@
+{
+  "name": "rocketq",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuários direcionadas ao dono da página. Projeto desenvolvido na semana NLW 6 da Rocketseat na missão Discover",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon -L .",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Vinicius Macedo Pinto",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
